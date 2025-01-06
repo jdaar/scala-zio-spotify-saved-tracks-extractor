@@ -10,6 +10,16 @@ Little scala app made to extract the saved tracks of an spotify account
 sbt compile
 sbt run > output.txt
 ```
+It is also required to update the application.conf inside of the resources directory
+
+```json
+spotify {
+    token = "{PUT YOUR TOKEN HERE, obtain it from spotify OAuth flow}"
+    getTokenEndpoint = "https://accounts.spotify.com/api/token"
+    getUserSavedTracksEndpoint = "https://api.spotify.com/v1/me/tracks"
+}
+separator = "\n"
+```
 
 # Structure
 
