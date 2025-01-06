@@ -3,6 +3,7 @@ Little scala app made to extract the saved tracks of an spotify account
 # How to use
 
 > Main dependencies: ZIO, zio-schema, zio-json, zio-http
+
 > Requirements: Sbt and Scala 3
 
 ```bash
