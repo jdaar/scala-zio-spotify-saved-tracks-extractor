@@ -12,7 +12,7 @@ sbt run > output.txt
 ```
 It is also required to update the application.conf inside of the resources directory
 
-```json
+```hocon
 spotify {
     token = "{PUT YOUR TOKEN HERE, obtain it from spotify OAuth flow}"
     getTokenEndpoint = "https://accounts.spotify.com/api/token"
